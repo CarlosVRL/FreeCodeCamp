@@ -10,13 +10,19 @@
 
 function reverseString(str) {
 
+	// var splitString = [];
+	// var reverseStringArray = [];
+
 	// Split str (input) into an array between each character
-	splitString = str.split('');
+	//splitString = str.split('');
 
 	// Reverse array object
-	reverseStringArray = splitString.reverse();
+	//reverseStringArray = splitString.reverse();
 
 	// Join array (characters) & return
-	return reverseStringArray.join('');
+	//return reverseStringArray.join('');
+
+	// A compact way to accomplish the same
+	return str.split('').reverse().join('');
 
 }

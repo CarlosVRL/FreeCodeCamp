@@ -5,7 +5,6 @@
   * @author Carlos Varela
   * @version 1.0
   * @since 2017-03-27
-  *
   */
 
 function reverseString(str) {

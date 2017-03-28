@@ -1,7 +1,6 @@
 /**
-  * The Reverse a String routine implements an
-  * application that simply returns the reverse
-  * order of the original string.
+  * The Reverse a String function simply returns
+  * the reversed order of the original string.
   *
   * @author Carlos Varela
   * @version 1.0
@@ -11,7 +10,7 @@
 
 function reverseString(str) {
 
-	// Split input str into an array between characters
+	// Split str (input) into an array between each character
 	splitString = str.split('');
 
 	// Reverse array object

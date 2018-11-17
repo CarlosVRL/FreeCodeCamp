@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+</head>
+<body>
+
+    <div ng-app="myApp" ng-controller="myCtrl as vm">
+        First Name: <input type="text" ng-model="vm.firstName"><br>
+        Last Name: <input type="text" ng-model="vm.lastName"><br>
+        <br>
+        Full Name: {{vm.firstName + " " + vm.lastName}}
+    </div>
+
+    <script>
+    /**
+     * The primary module.
+     */
+    var app = angular.module('myApp', []);
+
+    app.controller('myCtrl', function($scope, $log)
+    {
+        var vm = this;
+
+        /**
+         * View Model.
+         */
+        vm.firstName = "John";
+        vm.lastName  = "Doe";
+    });
+    </script>
+
+</body>
+</html>
+

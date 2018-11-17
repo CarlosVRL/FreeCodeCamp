@@ -1,5 +1,7 @@
-
-function convertToF(celsius)
+var convert_celsius_to_fahrenheit =
 {
-    console.log('hello javascript');
-};
+    api: function(celsius)
+    {
+        console.log('temperature');
+    }
+}

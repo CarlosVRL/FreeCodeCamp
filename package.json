@@ -1,0 +1,26 @@
+{
+  "name": "freecodecamp",
+  "version": "1.0.0",
+  "description": "Free Code Camp Curriculum",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine-core": "^3.3.0",
+    "karma": "^3.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^2.0.1"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosVRL/FreeCodeCamp.git"
+  },
+  "author": "CarlosVRL",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CarlosVRL/FreeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/CarlosVRL/FreeCodeCamp#readme"
+}
